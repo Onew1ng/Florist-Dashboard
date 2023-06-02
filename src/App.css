@@ -1,0 +1,70 @@
+.App {
+  background: linear-gradient(106.37deg,
+      #ffe1bc 29.63%,
+      #ffcfd1 51.55%,
+      #f3c6f1 90.85%);
+
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+  
+}
+
+
+.AppHeader {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 22px;
+  position: relative;
+  border-bottom: 3px solid pink;
+
+}
+
+
+
+.AppFooter {
+  display: flex;
+padding: 5px;
+ justify-content: space-evenly;
+ align-items: center;
+ border-top: 1px solid #f3c6f1;
+
+  
+}
+
+
+.SideAndPageContent {
+  display: flex;
+  flex: 1;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 5px;
+}
+
+.ant-menu {
+  border-radius: 5px;
+  color: rgb(20, 19, 19);
+
+}
+
+.ant-menu .ant-menu-item-selected{
+  background-color: #ffcfd1;
+  color:rgb(186, 106, 186);
+}
+
+.ant-table-container{
+  background-color: #FFCFD1;
+}
+
+
+
+
+.PageContent {
+  padding-bottom: 15px;
+  padding-left: 17px;
+  height: 100%;
+}
+
+
+
